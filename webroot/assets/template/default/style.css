@@ -1,0 +1,201 @@
+html, body {
+	overflow-x: hidden;
+}
+body {
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+select > option {
+	padding-block-start: 5px;
+	padding-block-end: 5px;
+	padding-inline-start: 0;
+	padding-inline-end: 0;
+}
+hr {
+	margin: 5px 0 20px;
+	border-color: #999;
+}
+a:focus, .btn:focus {
+	outline: none;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+.navbar .glyphicon {
+	top: 2px;
+	margin-right: 5px;
+}
+.section::before {
+	content: "";
+	display: block;
+	height: 70px;
+	margin: -70px 0 0;
+}
+.section::after {
+	content: "";
+	display: block;
+	height: 20px;
+}
+.section h2 {
+	margin: 0;
+}
+.form-group {
+	margin-bottom: 0;
+}
+.input-group-addon .glyphicon {
+	left: 1px;
+}
+.btn .glyphicon {
+	top: 2px;
+}
+.alert {
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+}
+.alert .close {
+	top: -1px;
+	right: 0;
+}
+.alert .glyphicon {
+	margin-right: 5px;
+}
+.rect {
+	float: left;
+    width: 100%;
+    height: 100%;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	color: white;
+}
+.rect h2 {
+	margin: 5px 0 0 0;
+}
+.rect small {
+	color: #ccc;
+}
+.rect-text-sm {
+	font-size: 85%;
+	letter-spacing: .15em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.rect:after {
+	font-family: 'Glyphicons Halflings';
+	font-size: 48px;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+	opacity: .25;
+}
+.s-ON:after {
+	content: "\e124";
+}
+.s-OFF:after {
+	content: "\e223";
+}
+.bg-info .rect-text-sm,
+.bg-info small {
+	color: white;
+}
+.bg-danger {
+	background: #a94442;
+}
+.graph-container {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+}
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 2px;
+}
+svg .label {
+	all: initial;
+	font: 8pt sans-serif;
+}
+svg text {
+	font-size: 8pt;
+}
+table.dataTable {
+	margin: 0 !important;
+}
+.table-responsive {
+	margin-bottom: 20px;
+}
+.dataTables_filter {
+	display: none;
+}
+.dataTables_processing {
+	display: none !important;
+}
+table#history th {
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+}
+th.no-sort {
+	padding-right: 5px !important;
+	width: auto !important;
+}
+table#history th, 
+table#history td {
+	text-align: right;
+}
+table#history th:first-child, 
+table#history td:first-child {
+	text-align: left;
+}
+.well {
+	margin-bottom: 10px;
+}
+.well-sm {
+	padding: 6px 12px;
+}
+.dataTables_info {
+	padding: 0 !important;
+}
+.dataTables_length {
+	text-align: left !important;
+}
+
+select#history-length {
+	text-align: center;
+}
+.dataTables_paginate {
+	text-align: right !important;
+}
+.bootstrap-datetimepicker-widget {
+	z-index: 9999;
+}
+.tooltip-inner {
+	min-width: 125px;
+}
+.modal-open {
+	overflow: auto;
+	padding-right: 0 !important;
+}
+.modal-open .modal {
+	padding-right: 0 !important;
+}
+.table-page-setting th,
+.table-page-setting td {
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.rect::before {
+		
+	}
+	.rect::after {
+		
+	}
+}
